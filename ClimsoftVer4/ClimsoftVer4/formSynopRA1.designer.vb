@@ -440,6 +440,7 @@ Partial Class formSynopRA1
         Val_Elem177Label.Size = New System.Drawing.Size(21, 13)
         Val_Elem177Label.TabIndex = 151
         Val_Elem177Label.Text = "Nh"
+        AddHandler Val_Elem177Label.Click, AddressOf Me.Val_Elem177Label_Click
         '
         'Val_Elem178Label
         '

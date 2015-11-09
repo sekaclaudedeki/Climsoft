@@ -589,7 +589,10 @@ Public Class formSynopRA1
         End If
     End Sub
 
-   
+    Private Sub Val_Elem177Label_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
     Private Sub txtVal_Elem103Field014_LostFocus(sender As Object, e As EventArgs) Handles txtVal_Elem103Field014.LostFocus
         Dim RH As New dataEntryGlobalRoutines
         Dim dryBulb As String, dewPoint As String
